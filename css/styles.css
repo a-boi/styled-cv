@@ -1,0 +1,146 @@
+/***************** TAG SELECTORS ***************/
+a{
+    color: #66BFBF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eeeeee;
+}
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 10px 0 0 0;
+    color: grey;
+    height: 0;
+    margin: 200px auto 200px auto;
+    width: 4%;
+}
+
+/************************* CLASS SELECTORS *********************/
+
+.btn{
+  background: #94d0cc;
+  background-image: -webkit-linear-gradient(top, #94d0cc, #4ca1a3);
+  background-image: -moz-linear-gradient(top, #94d0cc, #4ca1a3);
+  background-image: -ms-linear-gradient(top, #94d0cc, #4ca1a3);
+  background-image: -o-linear-gradient(top, #94d0cc, #4ca1a3);
+  background-image: linear-gradient(to bottom, #94d0cc, #4ca1a3);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: absolute;
+  bottom: 100px;
+}
+
+.btn:hover{
+  background: #eeeeee;
+  background-image: -webkit-linear-gradient(top, #eeeeee, #00adb5);
+  background-image: -moz-linear-gradient(top, #eeeeee, #00adb5);
+  background-image: -ms-linear-gradient(top, #eeeeee, #00adb5);
+  background-image: -o-linear-gradient(top, #eeeeee, #00adb5);
+  background-image: linear-gradient(to bottom, #eeeeee, #00adb5);
+  text-decoration: none;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+}
+
+.bottom-container{
+    background-color: #11999E;
+    margin: 100px auto 20px auto;
+}
+
+.computer-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+}
+
+.contact-para{
+    margin: 50px auto 100px auto;
+    width: 50%;
+}
+
+.chilli-img{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.footer-link{
+    color: #94d0cc;
+    display: inline-block;
+    margin: 30px;
+}
+
+.intro{
+    margin: 100px auto 50px auto;
+    width: 50%;
+}
+
+.profile-picture{
+    margin: 100px auto 100px auto;
+}
+
+.skill-row{
+    line-height: 2;
+    margin: 200px auto 200px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+.top-container{
+    background-color: #11999E;
+    position: relative;
+    padding-top: 100px;
+}
+
+.web{
+    text-decoration: underline;
+}
